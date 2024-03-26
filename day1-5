@@ -1,0 +1,8 @@
+fib <- c(a <- 0, b <- 1)
+for (i in 1:8) {
+  c <- a + b
+  fib <- c(fib, c)
+  a <- b
+  b <- c
+}
+print(fibonacci, 10)
