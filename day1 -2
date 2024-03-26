@@ -1,0 +1,3 @@
+l<-list("name:"=c("dev","pat","chit"), "age"= c(20,23,22))
+cat("Objects in memory:\n")
+print (ls(l))
