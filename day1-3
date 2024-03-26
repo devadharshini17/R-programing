@@ -1,0 +1,3 @@
+num<-(seq(20, 50))
+print(mean(seq(20, 60)))
+print(sum(seq(51, 91)))
