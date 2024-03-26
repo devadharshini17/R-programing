@@ -1,0 +1,4 @@
+sample_letters <- sample(LETTERS, size = 7, replace = FALSE)
+factor_letters <- factor(sample_letters)
+five_levels <- sample(levels(factor_letters), size = 5)
+print(five_levels)
